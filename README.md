@@ -8,6 +8,12 @@ The script is designed for:
 - avoid environment conflicts
 - Making the output compatible with neuron simulators / analysis tools (e.g. Arbor, NEURON, etc.)
 
+## Citation
+
+
+Xu, Mengze; *IMARIS SWC XT: A Python script for exporting neuron morphologies from Imaris*, GitHub repository, 2025.  
+https://github.com/MCX-sg/IMARIS-SWC-XT
+
 > Note: This code was developed and tested with Imaris 10.2.0 on Windows.
 
 ---
