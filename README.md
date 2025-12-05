@@ -15,7 +15,7 @@ The script is designed for:
 ## Features
 
 - Export all filaments in the current Imaris scene to individual `.swc` files
-- Create a folder under 'documents' named 'ImarisExports'  
+- Create a folder under `documents` named `ImarisExports` 
 - Basic handling of soma, dendrites, and axons (depending on how your filaments are annotated)
 - Simple error messages when no suitable filament objects are found
 - No use of external numpy and tkinker other than the embedded icepy in Imaris
@@ -38,5 +38,5 @@ The script is designed for:
   - Put python script under XT folder within Imaris
   - Remember to link python to Imaris in custom tools
   - Close and reopen Imaris
-  - You should see 'Export Filament in SWC forma' under Image Processing dropdown menu
+  - You should see `Export Filament in SWC forma` under Image Processing dropdown menu
   
