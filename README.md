@@ -5,6 +5,7 @@ This repository contains a Python XT script for [Imaris](https://imaris.oxinst.c
 The script is designed for:
 - Converting Imaris filament objects to SWC format
 - Preserving node coordinates, radii, and parent-child relationships
+- avoid environment conflicts
 - Making the output compatible with neuron simulators / analysis tools (e.g. Arbor, NEURON, etc.)
 
 > Note: This code was developed and tested with Imaris 10.2.0 on Windows.
@@ -17,6 +18,7 @@ The script is designed for:
 - Create a folder under 'documents' named 'ImarisExports'  
 - Basic handling of soma, dendrites, and axons (depending on how your filaments are annotated)
 - Simple error messages when no suitable filament objects are found
+- No use of external numpy and tkinker other than the embedded icepy in Imaris
 
 ---
 
@@ -25,11 +27,16 @@ The script is designed for:
 ### 1. Requirements
 
 - **Imaris** with XT (XTension) support
-- **Python** (the version Imaris is configured to use, e.g. 3.x)
-- Python packages (if any):
+- **Python** (3.7)
+- Python packages:
   - `ImarisLib`
-  - `from __future__``annotations`
+  - `from __future__ import annotations`
   - `os`
   - `time`
   - `datetime`
+### 2. File location
+  - Put python script under XT folder within Imaris
+  - Remember to link python to Imaris in custom tools
+  - Close and reopen Imaris
+  - You should see 'Export Filament in SWC forma' under Image Processing dropdown menu
   
