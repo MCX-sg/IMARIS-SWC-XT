@@ -39,4 +39,7 @@ The script is designed for:
   - Remember to link python to Imaris in custom tools
   - Close and reopen Imaris
   - You should see `Export Filament in SWC forma` under Image Processing dropdown menu
-  
+
+
+## Known Limitations
+  - Does not automatically return node type, therefore the second column on SWC file will return 0 even for the soma
