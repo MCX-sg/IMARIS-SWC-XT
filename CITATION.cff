@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "IMARIS-SWC-XT: Python XT script for exporting SWC files"
+authors:
+  - family-names: Xu
+    given-names: Mengze
+version: "1.0.0"
+date-released: 2025-12-05
+repository-code: "https://github.com/MCX-sg/IMARIS-SWC-XT"
