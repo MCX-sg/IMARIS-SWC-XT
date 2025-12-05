@@ -38,7 +38,7 @@ The script is designed for:
   - Put python script under XT folder within Imaris
   - Remember to link python to Imaris in custom tools
   - Close and reopen Imaris
-  - You should see `Export Filament in SWC forma` under Image Processing dropdown menu
+  - You should see `Export Filament in SWC format` under Image Processing dropdown menu
 
 
 ## Known Limitations
